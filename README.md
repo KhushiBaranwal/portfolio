@@ -1,4 +1,4 @@
-# Khushi Baranwal — AI Engineer Portfolio
+# Khushi Baranwal Portfolio
 
 A dark, glassmorphic Next.js 15 portfolio with an interactive pixel-art "journey"
 side-scroller as its centerpiece.
