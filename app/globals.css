@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --background: #250631;
-  --surface: #0b1d4c;
+  --background: #96a4d1;
+  --surface: #a4b4dc;
   --primary: #6196a3;
-  --secondary: #aa50e7;
+  --secondary: #acdcec;
 }
 
 html {
@@ -33,7 +33,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #050816;
+  background: #6e88c0;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -43,10 +43,10 @@ body {
 
 /* Glass Effect */
 .glass {
-  background: rgba(11, 17, 32, 0.6);
+  background: rgba(36, 69, 153, 0.6);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(100, 14, 131, 0.08);
 }
 
 .glass-card {

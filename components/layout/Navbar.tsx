@@ -11,6 +11,7 @@ const NAV_LINKS = [
   { href: "#skills", label: "Skills" },
   { href: "#timeline", label: "Experience" },
   { href: "#contact", label: "Contact" },
+  { href: "#certifications", label: "Certifications" },
 ];
 
 export function Navbar() {

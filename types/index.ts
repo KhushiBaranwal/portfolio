@@ -27,6 +27,12 @@ export interface TimelineItem {
   type: TimelineType;
 }
 
+export interface Certification {
+  title: string;
+  issuer: string;
+  year: string;
+}
+
 export interface Checkpoint {
   id: string;
   label: string;
