@@ -4,9 +4,9 @@ export const OWNER = {
   name: "Khushi Baranwal",
   role: "AI Engineer",
   tagline:
-    "Building intelligent AI-powered solutions using Machine Learning, Computer Vision and modern web technologies.",
-  bio: "B.Tech Electronics and Communication Engineering student passionate about AI, Machine Learning, Computer Vision and intelligent software systems.",
-  focus: ["AI", "ML", "YOLO", "Computer Vision", "GenAI", "Future AI Engineer"],
+    "I build things that see and decide — vision models, ML pipelines, and the web apps that put them in front of people.",
+  bio: "Final-year ECE student at JIIT who got pulled into AI through a traffic project that actually had to work in real footage, not just a notebook. Since then I've been building computer vision and ML systems end-to-end — model to deployment.",
+  focus: ["Computer Vision", "Machine Learning", "YOLO", "GenAI"],
   socials: {
     github: "https://github.com/KhushiBaranwal",
     linkedin: "https://www.linkedin.com/in/khushi-baranwal-633105372",
@@ -31,7 +31,7 @@ export const PROJECTS: Project[] = [
     id: "smart-traffic",
     title: "Smart Traffic Management",
     description:
-      "Real-time adaptive traffic signal system using YOLOv8 for vehicle detection, dual-lane density-based timing, emergency vehicle override and disabled-person priority logic.",
+      "Traffic signals that actually count vehicles instead of running on a fixed timer. Built on YOLOv8 for real-time detection, it adjusts green-light duration based on lane density and jumps the queue for ambulances and disabled pedestrians.",
     tech: ["YOLOv8", "Python", "OpenCV", "Roboflow"],
     github: "https://github.com/KhushiBaranwal",
     demo: "#",
@@ -41,7 +41,7 @@ export const PROJECTS: Project[] = [
     id: "resume-analyzer",
     title: "AI Resume Analyzer",
     description:
-      "NLP-powered resume screening tool that scores resumes against job descriptions, extracts key skills and highlights gaps for candidates and recruiters.",
+      "Feed it a resume and a job description, get back a match score and the exact skill gaps — built so recruiters (and job seekers) don't have to read between the lines.",
     tech: ["Python", "NLP", "Machine Learning"],
     github: "https://github.com/KhushiBaranwal",
     demo: "#",
@@ -51,7 +51,7 @@ export const PROJECTS: Project[] = [
     id: "smart-attendance",
     title: "Smart Attendance System",
     description:
-      "Face-recognition based attendance system with real-time detection, liveness checks and an analytics dashboard for administrators.",
+      "Face-recognition attendance that clocks people in as they walk past a camera, with a liveness check so a photo can't fake it, and a dashboard admins can actually read.",
     tech: ["OpenCV", "Python", "SQL"],
     github: "https://github.com/KhushiBaranwal",
     demo: "#",
@@ -61,7 +61,7 @@ export const PROJECTS: Project[] = [
     id: "phishing-detection",
     title: "Phishing Detection",
     description:
-      "Machine learning classifier that flags phishing URLs and emails using feature engineering across lexical, host-based and content signals.",
+      "A classifier that catches phishing links before you click them, trained on lexical, host, and content-level features rather than a simple blocklist.",
     tech: ["Scikit-learn", "Python", "ML"],
     github: "https://github.com/KhushiBaranwal",
     demo: "#",
@@ -100,37 +100,37 @@ export const TIMELINE: TimelineItem[] = [
   {
     year: "2023",
     title: "Started B.Tech ECE",
-    description: "Began Electronics & Communication Engineering, JIIT.",
+    description: "Joined JIIT for Electronics & Communication Engineering.",
     type: "education",
   },
   {
     year: "2024",
-    title: "Foundations in AI/ML",
-    description: "Built first machine learning models and computer vision pipelines.",
+    title: "Got into AI/ML",
+    description: "Started building actual ML models and CV pipelines instead of just studying theory.",
     type: "education",
   },
   {
     year: "2025",
     title: "Smart Traffic Management System",
-    description: "Shipped a YOLOv8-based adaptive traffic system with real-world dataset training.",
+    description: "Trained and shipped a YOLOv8 traffic system on a real-world dataset — my first project that had to survive contact with real data.",
     type: "project",
   },
   {
     year: "2025",
     title: "Internship",
-    description: "Applied electronics and AI concepts in an industry setting.",
+    description: "Applied core electronics and AI concepts in a real industry setting.",
     type: "internship",
   },
   {
     year: "2026",
-    title: "Certifications & Achievements",
-    description: "Completed certifications in ML and computer vision; expanded project portfolio.",
+    title: "Certifications & Growing Project List",
+    description: "Picked up ML and CV certifications while adding to the project portfolio.",
     type: "achievement",
   },
   {
     year: "Now",
-    title: "Open for Opportunities",
-    description: "Looking for AI Engineer / ML Engineer roles where hardware meets intelligence.",
+    title: "Open to Opportunities",
+    description: "Looking for AI/ML Engineer roles where I can work at the intersection of hardware and intelligence.",
     type: "future",
   },
 ];
@@ -141,7 +141,7 @@ export const CHECKPOINTS: Checkpoint[] = [
     label: "College",
     title: "JIIT — B.Tech ECE",
     description:
-      "Electronics & Communication Engineering student building a bridge between hardware fundamentals and applied AI.",
+      "Electronics & Communication Engineering, with a growing pull toward the AI side of things — I like understanding systems from the signal up.",
     tech: ["Electronics", "Signals", "Embedded Systems"],
     x: 6,
   },
@@ -150,7 +150,7 @@ export const CHECKPOINTS: Checkpoint[] = [
     label: "Traffic AI",
     title: "Smart Traffic Management System",
     description:
-      "YOLOv8-powered adaptive signal control with emergency vehicle override and priority logic for disabled pedestrians.",
+      "YOLOv8-based adaptive signal control that reads live traffic density and gives emergency vehicles and disabled pedestrians priority.",
     tech: ["YOLOv8", "Python", "OpenCV"],
     github: "https://github.com/KhushiBaranwal",
     demo: "#",
@@ -161,7 +161,7 @@ export const CHECKPOINTS: Checkpoint[] = [
     label: "Attendance System",
     title: "Smart Attendance System",
     description:
-      "Face-recognition attendance tracking with a live analytics dashboard for administrators.",
+      "Face-recognition attendance with liveness detection and a live dashboard, built to replace manual roll calls.",
     tech: ["OpenCV", "Python", "SQL"],
     github: "https://github.com/KhushiBaranwal",
     demo: "#",
@@ -172,7 +172,7 @@ export const CHECKPOINTS: Checkpoint[] = [
     label: "Phishing Detection",
     title: "Phishing Detection Engine",
     description:
-      "Classifier flagging malicious URLs and emails via engineered lexical and host-based features.",
+      "A classifier that flags malicious URLs and emails using engineered lexical and host-based features — not a simple keyword filter.",
     tech: ["Scikit-learn", "Python"],
     github: "https://github.com/KhushiBaranwal",
     demo: "#",
@@ -183,7 +183,7 @@ export const CHECKPOINTS: Checkpoint[] = [
     label: "Certificates",
     title: "Certifications",
     description:
-      "A growing collection of ML, computer vision and cloud certifications backing up the project work.",
+      "ML, CV, and cloud certifications picked up alongside the project work, not instead of it.",
     tech: ["ML", "CV", "Cloud"],
     x: 82,
   },
@@ -192,7 +192,7 @@ export const CHECKPOINTS: Checkpoint[] = [
     label: "Open For Work",
     title: "Let's Build Something",
     description:
-      "Currently open to AI Engineer and ML Engineer roles — especially ones where hardware and intelligence meet.",
+      "Open to AI/ML Engineer roles — especially ones where hardware and intelligence meet.",
     tech: ["AI Engineer", "ML Engineer"],
     x: 96,
   },
